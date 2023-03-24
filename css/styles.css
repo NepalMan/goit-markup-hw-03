@@ -25,7 +25,7 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+
   margin: 0% auto;
 }
 
@@ -102,6 +102,7 @@ body {
   text-transform: uppercase;
 }
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -289,11 +290,15 @@ body {
   display: flex;
   padding-top: 72px;
   padding-bottom: 120px;
-  gap: 24px;
 }
 
 .team-item {
   background-color: var(--html-color);
+  width: calc((100% - 72px) / 3);
+}
+
+.team-item-container {
+  padding: 32px 0;
 }
 
 .team-item-name {
@@ -318,6 +323,10 @@ body {
 
 .footer {
   background-color: var(--btn-color);
+}
+
+.footer-container {
+  padding-right: 864px;
 }
 
 .footer-logo {
@@ -355,6 +364,13 @@ body {
 }
 
 /*---------------------PORTFOLIO------------------------*/
+
+.button-container {
+  display: flex;
+  padding: 96px 0px 72px;
+  gap: 24px;
+  justify-content: center;
+}
 
 .filter-btn {
   font-family: "Roboto", sans-serif;
