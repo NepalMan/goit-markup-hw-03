@@ -25,7 +25,8 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0% auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visually-hidden {
@@ -83,7 +84,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--web-logo-color);
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .link {
@@ -108,8 +109,8 @@ body {
   display: flex;
   align-items: center;
   margin-right: auto;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
@@ -169,9 +170,7 @@ body {
 
 .title {
   background-color: var(--btn-color);
-}
-
-.container-btn {
+  padding-top: 188px;
   padding-bottom: 188px;
 }
 
@@ -182,23 +181,25 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--html-color);
-  padding-top: 188px;
+  width: 496px;
   margin-bottom: 64px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title-btn {
-  display: flex;
+  display: block;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--html-color);
   background: var(--web-logo-color);
-  margin: auto;
+  margin: 0 auto;
   padding: 16px 32px;
-  gap: 10px;
+  border: none;
+  border-radius: 4px;
 }
 
 .title-btn:hover,
@@ -210,16 +211,17 @@ body {
 /*---------------------PRINCIPLES------------------------*/
 
 .principles {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .principles-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  gap: 24px;
 }
 
 .principles-item {
+  width: calc((100% - 72px) / 4);
+  justify-content: center;
 }
 
 .principles-item-header {
